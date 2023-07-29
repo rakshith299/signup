@@ -1,0 +1,79 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.whole{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://t3.ftcdn.net/jpg/04/28/87/10/360_F_428871097_74QTIx9LRjJSBTnknjFlX2pSTRIL1edy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.success-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #4A43EC
+}
+
+.card{
+    width: 27%;
+    height: 62%;
+    padding: 15px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (min-width: 250px) and (max-width: 800px) {
+    .card{
+        width: 70%;
+        height: 80%;
+    }
+}
+
+.profile-heading{
+    color: black;
+    font-size: 24px;
+}
+
+.info-display{
+    width: 100%;
+}
+
+.profile-logo{
+    width: 100%;
+    height: 80px;
+    margin-top: 15px;
+
+}
+
+.span{
+    color: #4A43EC;
+}
+
+.btn{
+    width: 100%;
+    height: 40px;
+    background-image: linear-gradient(to bottom, #6059F6, #4A43EC);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
